@@ -1,0 +1,19 @@
+IF
+LOS(Player1,17)
+Global("TLolquest","GLOBAL",2)
+Global("orccut1","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("orccut1","LOCALS",1)
+StartCutSceneMode()
+ClearAllActions()
+StartCutScene("tlolCUT1")
+END
+
+IF
+LOS(Player1,17)
+Global("TLolquest","GLOBAL",8)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

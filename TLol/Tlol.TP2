@@ -1,0 +1,81 @@
+BACKUP ~TLOL\backup~
+AUTHOR ~Tuldor88 (Tuldor88@wp.pl)~
+
+
+AUTO_TRA ~Tlol\tra\%s~
+LANGUAGE ~Polish~
+~Polish~
+~Tlol/tra/polish/Tlol.tra~
+
+LANGUAGE ~Francais~
+~French~
+~Tlol/tra/french/Tlol.tra~
+
+LANGUAGE ~Francais pour BG2EE/EET~
+~FrenchEE~
+~Tlol/tra/frenchEE/Tlol.tra~
+
+BEGIN @0
+
+	//Przesuniêcie Itony w Targowie
+COPY_EXISTING ~AR2000.BCS~ ~override/AR2000.BCS~
+DECOMPILE_BCS_TO_BAF
+REPLACE_TEXTUALLY ~3771.75~ ~4000.215~
+COMPILE_BAF_TO_BCS
+BUT_ONLY_IF_IT_CHANGES
+
+COPY ~TLOL/itm/tlolNOTE.itm~  ~override/tlolNOTE.itm~
+SAY NAME2 @1
+SAY DESC @2
+
+COPY ~TLOL/itm/tlolMIS.itm~  ~override/tlolMIS.itm~
+SAY NAME2 @3
+SAY DESC @4
+
+COPY ~TLOL/itm/tlolLUST.itm~  ~override/tlolLUST.itm~
+SAY NAME2 @5
+SAY DESC @6
+
+COMPILE ~TLOL/baf/TLolorc.baf~                     //Ork
+COMPILE ~TLOL/baf/TLolksi.baf~                     //Ksiê¿niczka
+COMPILE ~TLOL/baf/TLolkob.baf~                     //Koboldzica
+COMPILE ~TLOL/baf/TLolcut1.baf~                     //Ucieczka ch³opaka
+COMPILE ~TLOL/baf/TLolcut2.baf~                     //Pogonienie Barda
+COMPILE ~TLOL/baf/TLolcut3.baf~                     //Paladyni i koboldzica
+EXTEND_BOTTOM ~AR2000.bcs~ ~TLOL/baf/AR2000.baf~    //Targowo
+EXTEND_BOTTOM ~AR4000.bcs~ ~TLOL/baf/AR4000.baf~    //G³owy w Gaju
+
+COMPILE ~TLol\d~
+
+COPY ~TLOL/cre/TlolBoy.cre~ ~override/tlolBOY.cre~
+SAY NAME1 @7
+SAY NAME2 @7
+
+COPY ~TLOL/cre/TlolOrc.cre~ ~override/tlolORC.cre~
+SAY NAME1 @8
+SAY NAME2 @8
+
+COPY ~TLOL/cre/TlolKob.cre~ ~override/tlolKOB.cre~
+SAY NAME1 @9
+SAY NAME2 @9
+
+COPY ~TLOL/cre/TlolKSI.cre~ ~override/tlolKSI.cre~
+SAY NAME1 @10
+SAY NAME2 @10
+
+COPY ~TLOL/cre/TlolPal0.cre~ ~override/tlolPAL0.cre~
+SAY NAME1 @11
+SAY NAME2 @11
+
+COPY ~TLOL/cre/TlolPal1.cre~ ~override/tlolPAL1.cre~
+SAY NAME1 @11
+SAY NAME2 @11
+
+COPY ~TLOL/cre/TlolPal2.cre~ ~override/tlolPAL2.cre~
+SAY NAME1 @11
+SAY NAME2 @11
+
+COPY_EXISTING ~shop08.sto~ ~override/shop08.sto~
+ADD_STORE_ITEM ~scrla4~ #1 #0 #0 ~IDENTIFIED~ #1
+
+//AT_INTERACTIVE_EXIT ~VIEW TLol\Readme-PL.txt~

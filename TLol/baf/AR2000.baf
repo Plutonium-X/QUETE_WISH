@@ -1,0 +1,23 @@
+IF
+Exists(Player1)
+Global("TLolquest","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("TLolquest","GLOBAL",2)
+CreateCreature("tlolBOY",[1565.3390],10)
+CreateCreature("tlolORC",[1600.3350],2)
+END
+
+IF
+Exists(Player1)
+Global("TLolquest","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("TLolquest","GLOBAL",4)
+CreateCreature("tlolKSI",[3565.110],12)
+CreateCreature("tlolKOB",[3720.90],0)
+CreateCreature("tlolPAL0",[3752.72],2)
+CreateCreature("tlolPAL1",[3668.75],14)
+CreateCreature("tlolPAL2",[3700.148],10)
+END
+

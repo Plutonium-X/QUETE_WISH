@@ -1,0 +1,24 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId("tlolORC")
+SmallWait(1)
+MoveViewObject("tlolORC",INSTANT)
+Wait(1)
+DisplayStringHead("tlolBOY",@0)
+Wait(2)
+ActionOverride("tlolBOY",MoveToPoint([1535.3425]))
+Wait(2)
+DisplayStringHead(myself,@1)
+Wait(3)
+MoveToPoint([1565.3390])
+Wait(2)
+DisplayStringHead("tlolBOY",@2)
+Wait(3)
+ActionOverride("tlolBOY",MoveToPoint([1300.3500]))
+Wait(3)
+ActionOverride("tlolBOY",DestroySelf())
+Wait(1)
+StartDialogueNoSet(Player1)
+END

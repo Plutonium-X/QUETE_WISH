@@ -1,0 +1,18 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId("trgyp01")
+SmallWait(1)
+MoveViewObject("tlolORC",INSTANT)
+Wait(3)
+DisplayStringHead("tlolORC",@0)
+Wait(3)
+ActionOverride("tlolORC",MoveToPoint([1970.3511]))
+Wait(7)
+ActionOverride("tlolORC",DestroySelf())
+Wait(1)
+CreateCreature("tlolBOY",[1300.3480],9)
+Wait(5)
+ActionOverride("tlolBOY",Dialogue(Player1))
+END

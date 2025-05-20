@@ -1,0 +1,15 @@
+IF
+Exists(Player1)
+Global("TLolquest","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("TLolquest","GLOBAL",10)
+END
+
+IF
+Exists(Player1)
+Global("wishQuest","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("wishQuest","GLOBAL",1)
+END

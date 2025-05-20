@@ -1,0 +1,11 @@
+IF
+LOS(Player1,30)
+Global("TLolquest","GLOBAL",4)
+Global("ksicut3","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("ksicut3","LOCALS",1)
+StartCutSceneMode()
+ClearAllActions()
+StartCutScene("tlolCUT3")
+END
