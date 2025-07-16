@@ -1,5 +1,6 @@
 BACKUP ~TLOL\backup~
 AUTHOR ~Tuldor88 (Tuldor88@wp.pl)~
+VERSION ~v3~
 
 
 AUTO_TRA ~Tlol\tra\%s~
@@ -77,5 +78,14 @@ SAY NAME2 @11
 
 COPY_EXISTING ~shop08.sto~ ~override/shop08.sto~
 ADD_STORE_ITEM ~scrla4~ #1 #0 #0 ~IDENTIFIED~ #1
+
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+	ADD_JOURNAL @3 @4  USING ~TLOL/Tra/%LANGUAGE%/tlolboy.tra~
+	ADD_JOURNAL @13  USING ~TLOL/Tra/%LANGUAGE%/tlolkob.tra~
+	ADD_JOURNAL @9  USING ~TLOL/Tra/%LANGUAGE%/tlolksi.tra~
+	ADD_JOURNAL @21 @23 @24 @37 @38 @39 @40  USING ~TLOL/Tra/%LANGUAGE%/tlolorc.tra~
+	ADD_JOURNAL @25  USING ~TLOL/Tra/%LANGUAGE%/tlolpal.tra~
+	ADD_JOURNAL @8  USING ~TLOL/Tra/%LANGUAGE%/wish.tra~
+END
 
 //AT_INTERACTIVE_EXIT ~VIEW TLol\Readme-PL.txt~
