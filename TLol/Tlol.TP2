@@ -1,6 +1,6 @@
 BACKUP ~TLOL\backup~
 AUTHOR ~Tuldor88 (Tuldor88@wp.pl)~
-VERSION ~v3~
+VERSION ~v4~
 
 
 AUTO_TRA ~Tlol\tra\%s~
@@ -15,6 +15,10 @@ LANGUAGE ~Francais~
 LANGUAGE ~Francais pour BG2EE/EET~
 ~FrenchEE~
 ~Tlol/tra/frenchEE/Tlol.tra~
+
+LANGUAGE ~English (by pt1f4b)~
+~English~
+~Tlol/tra/english/Tlol.tra~
 
 BEGIN @0
 

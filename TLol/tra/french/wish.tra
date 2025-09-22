@@ -1,11 +1,11 @@
-@0    = ~De nombreux obstacles peuvent se dresser sur votre route. Décrivez-moi plus en détail ce que vous attendez.~
-@1    = ~Hmm... Je n'ai aucune idée. Trouve quelque chose, c'est toi le patron ici.~
+@0    = ~De nombreux obstacles peuvent se dresser sur votre route. Décrivez-moi plus en détail ce que vous souhaitez.~
+@1    = ~Hmm... Je n'en ai vraiment aucune idée. Pourquoi ne Trouve me trouves-tu pas quelque chose ? Après tout, rien ne t’es impossible, n’est ce pas ?~
 @2    = ~J'en ai assez des quêtes habituelles. Aller chercher quelque chose, transmettre quelque chose, sauver une princesse, vaincre une bande d'orques et de kobolds... J'ai besoin d'une bouffée d'air frais, surprenez-moi avec quelque chose de nouveau !~
 @3    = ~En fait, je préfère faire un autre vœu unique.~
 @4    = ~En fait, je préfère faire un vœu réutilisable.~
 @5    = ~Vous recevrez bientôt votre mission, <LADYLORD>.~
-@6    = ~* Il vous toise du regard et affiche un large sourire.* Vous en avez assez du classique ? Alors vous allez voir les choses sous un angle légèrement différent... N'oubliez pas que c'est vous qui l'avez demandé ! ~
-@7    = ~*Le djinn disparaît dans un portail en ricanant, et vous remarquez une page déchirée à vos pieds.*~
+@6    = ~*Il vous toise du regard et affiche un large sourire.* Vous en avez assez du classique ? Alors vous allez voir les choses sous un angle légèrement différent... N'oubliez pas que c'est vous qui l'avez demandé ! ~
+@7    = ~Le djinn fait soudainement apparaître un portail devant lui et le franchit rapidement. Celui-ci se referme alors dans un puissant flash lumineux et coloré. Un bref ricanement résonne encore à vos oreilles et il vous faut quelques secondes avant que vous ne repreniez vos esprits. Vous commenciez à vous approchez de la zone ou se trouvait le djinn et tout à coup vous entendez le bruissement d’une feuille sous vos pieds. Intrigué, vous vous penchez pour ramasser l’objet et l’observer plus en détail. On dirait une page déchirée avec des inscriptions manuscrites...*~
 @8    = ~Le souhait d'un barde solitaire
 
 Le djinn que j'ai convoqué m'a remis une note qui, selon lui, pourrait m'intéresser. Il semble qu'elle ait été écrite par un barde (bien que je ne sache pas si j'ai envie de connaître ses autres « œuvres »). D'après ce que j'ai pu lire, il devrait se trouver au sud des portes de Francmarché. Espérons que ce ne soit pas Volo...~

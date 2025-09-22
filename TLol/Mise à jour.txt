@@ -3,3 +3,7 @@
 - Correction du script de Princesse : les 3 guerriers valeureux ne la suivaient pas quand elle s'en allait.
 - Ajout de la hâte à la Kobold (nécessaire pour.... vous verrez)
 - Suppression de la proposition de l'installation en anglais : il n'y a pas de traduction anglaise.
+
+V4 :
+- Correction de la version française par pt1f4b.
+- Ajout de la traduction anglaise par pt1f4b.

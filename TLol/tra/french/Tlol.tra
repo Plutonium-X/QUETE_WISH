@@ -1,25 +1,25 @@
 @0    = ~Un souhait inhabituel v1.82 (par Tuldor88)~
-@1    = ~Page de journal~
-@2    = ~Ce que vous avez sous les yeux est une page déchirée, probablement d'un carnet de notes quelconque. Ici et là, les lettres sont brouillées, comme si des gouttes de pluie ou les larmes de l'auteur étaient tombées sur le papier. L'écriture semble régulière et sûre, mais il est difficile de déchiffrer quoi que ce soit sous la masse des ratures. On finit par lire un petit fragment.
+@1    = ~Page de journal déchirée~
+@2    = ~Ce que vous avez sous les yeux est une page déchirée, probablement d'un carnet de notes quelconque. Ici et là, les lettres sont brouillées, comme si des gouttes de pluie ou les larmes de l'auteur étaient tombées sur le papier. L'écriture semble régulière et sûre, mais il est vous difficile de déchiffrer quoi que ce soit sous la masse des ratures. Vous arrivez finalement à déchiffrer un petit fragment:
 
 Le soleil brille haut, et je cours nu dans la prairie,
 Ramassant des fleurs parfumée pour ma dulcinée.
 Je surveille mon pantalon qui sèche sur la pierre.
 Et je suis le vol d'une libellule aguichante.
 
-*Le reste de la page est complètement brouillé, tandis qu'au verso il n'y a qu'une courte note, elle aussi richement arrosée de larmes.
-"J'ai aussi été banni de l'auberge de La Porte, comme j'en ai l'habitude. Je vais établir mon campement... à Francmarché. Je devrais écrire une saga, mais je suis si terriblement SEUL !~
-@3    = ~Bourriquet~
-@4    = ~Ce petit ours déglingué a l'air d'avoir vécu ses plus belles années. La fourrure est tombée en de nombreux endroits, de même qu'un des boutons représentant les yeux. L'oreille droite de l'ourson semble avoir été constamment pincée, mais il est difficile de dire si cela est dû à un long séjour dans les sacs de Laganonim ou à trop de câlins.
+*Le reste de la page est complètement illisible. Au verso vous déchiffrez une courte note certainement brouillée par des larmes.
+"J'ai aussi été banni de l'auberge de La Porte, comme j'en ai l'habitude. Je vais établir mon campement... à Francmarché. Je devrais écrire une saga une fois là-bas. Cela m'occuperait l'esprit, car ma solitude me pèse tellement !~
+@3    = ~Teddy~
+@4    = ~Ce petit ours très abimé a connu de meilleurs jours. La fourrure est déchirée en de nombreux endroits, de même qu'un des boutons faisant office d'yeux. L'oreille droite de l'ourson est particulièrement marquée, comme si elle avait constamment pincée. Difficile de dire si cela est dû à un long séjour dans les sacs de Laganonim ou à trop de câlins...
 
-Vous vous sentez plus calme en regardant le nounours, et vous commencez à vous demander comment le reste du groupe réagirait en apprenant que l'enfant de Bhaal a commencé à dormir avec un ours en peluche sous son oreiller.....
+Vous vous sentez plus calme en regardant le nounours la peluche, comme si celle-ci elle avait le pouvoir de vous réconforter à chaque fois que vous la serrez contre vous. et Vous commencez cependant à vous demander comment le reste du groupe réagirait s'il apprenait que l'enfant de Bhaal a commencé à dormir dormait avec un ours en peluche sous son oreiller...
 
 PARAMÈTRES :
 
 Capacité de charges :
 Lance Résistance à la terreur cinq fois par jour.~
 @5    = ~Miroir~
-@6    = ~Ce miroir est sans aucun doute l'œuvre d'un artisan qualifié. Seule la phrase griffonnée au dos du cadre argenté laisse perplexe : "Miroir, dis-moi qui a la plus belle pêche du monde".
+@6    = ~Ce miroir est sans aucun doute l'œuvre d'un artisan qualifié. Seule la phrase griffonnée au dos du cadre argenté laisse perplexe : "Miroir, dis-moi qui a le plus beau minois du monde".
 Au moins, cela vous donne la certitude que la trouvaille appartient bien à la "princesse" Pizbolona et non à une autre dame.~
 @7    = ~Winci~
 @8    = ~Demi-orque hideux~
